@@ -15,7 +15,21 @@
     "lib": [
       "dom",
       "es2015"
-    ]
+    ],
+    "paths": {
+      "@ui-model/angular": [
+        "dist/ui-model/angular",
+        "projects/ui-model/angular"
+      ],
+      "@ui-model/core": [
+        "dist/ui-model/core",
+        "projects/ui-model/core"
+      ],
+      "@ui-model/common": [
+        "dist/ui-model/common",
+        "projects/ui-model/common"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "annotateForClosureCompiler": true,
