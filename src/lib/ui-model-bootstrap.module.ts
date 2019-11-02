@@ -101,6 +101,8 @@ import { FieldCssPipe } from './pipes/field-css.pipe';
 export class UiModelBootstrapModule {
 }
 
+export * from './components/toast-list/toast-list.component';
+export * from './components/modal-list/modal-list.component';
 export * from './components/modal/modal.component';
 export * from './components/modal/modal-confirm/modal-confirm.component';
 export * from './components/modal/modal-error/modal-error.component';
